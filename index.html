@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pincode Tool India – Pincode & Post Office Finder</title>
+  <meta name="description" content="भारत में Pincode, Post Office, District, State और Delivery status जल्दी खोजें। Mobile-friendly free Pincode Tool.">
+  <meta name="keywords" content="pincode finder india, pincode search, post office finder, pincode checker, delivery pincode">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="./">📍 <span>Pincode Tool</span><small>India</small></a>
+    <a href="#how" class="navlink">कैसे काम करता है?</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="badge">🇮🇳 Free India Pincode Tool</div>
+      <h1>Pincode और Post Office खोजें</h1>
+      <p>6-digit Pincode डालें और Post Office, District, State तथा Delivery status तुरंत देखें।</p>
+
+      <div class="search-box">
+        <form id="pinForm">
+          <label for="pin">Pincode</label>
+          <div class="input-row">
+            <input id="pin" inputmode="numeric" maxlength="6" placeholder="जैसे 226001" autocomplete="postal-code">
+            <button type="submit">🔎 Search</button>
+          </div>
+        </form>
+        <div class="or">या Post Office / Area का नाम खोजें</div>
+        <form id="textForm">
+          <div class="input-row">
+            <input id="q" maxlength="60" placeholder="जैसे Lucknow, Gomti Nagar">
+            <button type="submit" class="secondary">Search</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="quick">
+        <span>Try:</span>
+        <button data-pin="110001">110001</button>
+        <button data-pin="226001">226001</button>
+        <button data-pin="400001">400001</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="results">
+    <div id="status" class="status hidden"></div>
+    <div id="resultArea"></div>
+  </section>
+
+  <section class="wrap feature-grid">
+    <article><div class="icon">📦</div><h3>Post Office Details</h3><p>Office name, type, district, state और Pincode एक जगह।</p></article>
+    <article><div class="icon">🚚</div><h3>Delivery Status</h3><p>Available postal data में Delivery/Non-Delivery status देखें।</p></article>
+    <article><div class="icon">📋</div><h3>Copy Address</h3><p>Address को एक tap में copy करके WhatsApp या shopping form में इस्तेमाल करें।</p></article>
+    <article><div class="icon">📱</div><h3>Mobile Friendly</h3><p>फोन पर fast और आसान इस्तेमाल के लिए बनाया गया।</p></article>
+  </section>
+
+  <section class="wrap info" id="how">
+    <h2>यह Tool कैसे काम करता है?</h2>
+    <ol>
+      <li>ऊपर 6-digit Pincode डालें या Area/Post Office का नाम खोजें।</li>
+      <li>Tool postal data से matching Post Office details दिखाता है।</li>
+      <li>Result में address copy या map search कर सकते हैं।</li>
+    </ol>
+    <p class="note"><strong>महत्वपूर्ण:</strong> यह स्वतंत्र utility tool है, India Post की official website नहीं है। Postal information में बदलाव या देरी संभव है। Courier की वास्तविक delivery availability अलग हो सकती है।</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div><strong>Pincode Tool India</strong><br><span>Simple • Fast • Mobile Friendly</span></div>
+    <div class="footer-links"><a href="#how">About / How it works</a></div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
